@@ -41,9 +41,9 @@ public class Email {
 		if (depChoice == 1) { return "sales"; }
 		else if (depChoice == 2) { return "dev"; }
 		else if (depChoice == 3) { return "acct"; }
-		else { return ""; }
+		else { return "";}
 		
-		
+
 	}
 	
 	// Generate a random password
@@ -82,5 +82,4 @@ public class Email {
 				"\nCOMPANY EMAIL: " + email +
 				"\nMAILBOX CAPACITY: " + mailboxCapacity + "mb";
 	}
-
 }
